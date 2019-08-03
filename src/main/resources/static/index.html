@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Activities</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/selector.css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/index_page.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.datetimepicker.full.min.js"></script>
+    <script src="js/comboTreePlugin.js"></script>
+
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>
+            <input type="text" id="datetimepicker_start" class="mainElementStyle"/>
+        </td>
+        <td>
+            <input type="text" id="datetimepicker_end" class="mainElementStyle"/>
+        </td>
+        <td>
+            <select id="step" class="mainElementStyle">
+                <option value="HOUR">час</option>
+                <option value="DAY">день</option>
+                <option value="WEEK">неделя</option>
+                <option value="MONTH">месяц</option>
+                <option value="YEAR">год</option>
+            </select>
+        </td>
+        <td>
+            <input type="text" id="users" placeholder="Select" class="comboTreeInputBox"/>
+        </td>
+        <td>
+            <input value="Send" type="submit" class="submitButtonStyle" onclick="call()">
+        </td>
+    </tr>
+</table>
+
+<div style="margin-top: 50px; margin-left: 250px">
+    <div id="tableDiv" style="margin-top: 40px">
+        Table will generate here.
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.mainElementStyle {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+
+.submitButtonStyle {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 24px;
+    background-color: #b03e00;
+}
